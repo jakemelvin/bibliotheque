@@ -1,7 +1,7 @@
-DROP DATABASE IF EXISTS postgres;
-CREATE DATABASE postgres;
+DROP DATABASE IF EXISTS bibliotheque;
+CREATE DATABASE bibliotheque;
 
-\c postgres
+\c bibliotheque
 
 drop  table  if  exists  Penalites;
 drop  table  if  exists  Emprunts;
